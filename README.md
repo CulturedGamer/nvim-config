@@ -1,11 +1,12 @@
-# nvim-config
+# My Neovim Configuration
 
-Welcome to my config
+## Installation
 
 clone this repository:
-git clone https://github.com/CulturedGamer/nvim-config.git
 
-included plugins:
+    git clone https://github.com/CulturedGamer/nvim-config.git
+
+## Plugins
 
 - lsp config
 - lsp installer
