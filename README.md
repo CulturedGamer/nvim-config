@@ -2,7 +2,7 @@
 
 ## Installation
 
-clone this repository:
+clone this repository into .config or appdata/local:
 
     git clone https://github.com/CulturedGamer/nvim-config.git
 
