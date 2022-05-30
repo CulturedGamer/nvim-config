@@ -2,6 +2,9 @@
 
 Welcome to my config
 
+clone this repository:
+git clone https://github.com/CulturedGamer/nvim-config.git
+
 included plugins:
 
 - lsp config
