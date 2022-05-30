@@ -2,7 +2,7 @@
 
 Welcome to my config
 
-Plugins:
+included plugins:
 
 - lsp config
 - lsp installer
