@@ -16,3 +16,5 @@ require('nvimtree')
 require('scope')
 require('dashboard')
 require('autopairs')
+
+-- test
