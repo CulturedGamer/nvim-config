@@ -24,6 +24,10 @@ return require('packer').startup(function()
 	use 'p00f/clangd_extensions.nvim'
 
 	-- gitsigns
+	use {
+  	'lewis6991/gitsigns.nvim',
+  	-- tag = 'release' -- To use the latest release
+	}
 	
 	-- telescope & file management
 	use {
