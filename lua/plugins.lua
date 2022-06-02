@@ -22,6 +22,8 @@ return require('packer').startup(function()
 		}
 	}
 	use 'p00f/clangd_extensions.nvim'
+
+	-- gitsigns
 	
 	-- telescope & file management
 	use {
