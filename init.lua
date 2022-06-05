@@ -5,7 +5,7 @@ require('settings.colorscheme')
 
 -- lsp
 require('lsp.cmp')
--- require('lsp.lsp_setup')
+require('lsp.lsp_setup')
 
 -- plugins/plugin configuration
 require('plugins')
@@ -16,5 +16,3 @@ require('nvimtree')
 require('scope')
 require('dashboard')
 require('autopairs')
-
--- test
