@@ -5,4 +5,6 @@
 
 -- vim.cmd[[colorscheme dracula]]
 
+-- vim.cmd[[colorscheme edge]]
+
 vim.cmd [[colorscheme onedarker]]
