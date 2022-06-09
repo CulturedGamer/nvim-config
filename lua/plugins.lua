@@ -23,6 +23,9 @@ return require('packer').startup(function()
 	}
 	use 'p00f/clangd_extensions.nvim'
 
+	-- pencil
+	use { 'preservim/vim-pencil', rtp = 'vim' }
+
 	-- gitsigns
 	use {
 		'lewis6991/gitsigns.nvim',
