@@ -3,4 +3,6 @@
 
 -- vim.cmd[[colorscheme darkplus]]
 
-vim.cmd[[colorscheme onedarker]]
+-- vim.cmd[[colorscheme dracula]]
+
+vim.cmd [[colorscheme onedarker]]
