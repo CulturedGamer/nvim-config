@@ -79,5 +79,6 @@ return require('packer').startup(function()
 	use 'lunarvim/darkplus.nvim'
 	use 'LunarVim/onedarker.nvim'
 	use 'dracula/dracula-theme'
+	use 'sainnhe/edge'
 
 end)
