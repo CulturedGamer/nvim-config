@@ -30,7 +30,7 @@ return require('packer').startup(function()
 	}
 
 	-- orgmode
-	use { 'nvim-orgmode/orgmode' }
+	use { 'dhruvasagar/vim-dotoo', rtp = 'vim' }
 
 	-- telescope & file management
 	use {
