@@ -4,14 +4,14 @@ local term_opts = { silent = true }
 
 local map = vim.api.nvim_set_keymap
 
-vim.opt.timeoutlen = 10000 
+vim.opt.timeoutlen = 10000
 vim.api.nvim_set_keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-map('n', '<C-F>', ':%s/',opts)
+map('n', '<C-F>', ':%s/', opts)
 
-map('n', '<leader>e', ":NvimTreeToggle<CR>", opts)
+map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
 
 map("n", "<C-Up>", ":resize -2<CR>", opts)
 map("n", "<C-Down>", ":resize +2<CR>", opts)
