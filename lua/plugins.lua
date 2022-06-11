@@ -23,18 +23,25 @@ return require('packer').startup(function()
 	}
 	use 'p00f/clangd_extensions.nvim'
 
+	-- pencil
+	use { 'preservim/vim-pencil', rtp = 'vim' }
+
 	-- gitsigns
 	use {
-  	'lewis6991/gitsigns.nvim',
-  	-- tag = 'release' -- To use the latest release
+		'lewis6991/gitsigns.nvim',
+		-- tag = 'release' -- To use the latest release
 	}
-	
+
+	-- orgmode
+	use { 'dhruvasagar/vim-dotoo', rtp = 'vim' }
+	use { 'nvim-orgmode/orgmode' }
+
 	-- telescope & file management
 	use {
 		'nvim-telescope/telescope.nvim',
 		requires = { { 'nvim-lua/plenary.nvim' } }
 	}
-	use {'ahmedkhalf/project.nvim'}
+	use { 'ahmedkhalf/project.nvim' }
 	use {
 		'nvim-treesitter/nvim-treesitter',
 	}
@@ -54,7 +61,7 @@ return require('packer').startup(function()
 
 
 	-- cosmetics
-	use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+	use { 'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons' }
 	use {
 		'kyazdani42/nvim-tree.lua',
 		requires = {
@@ -63,10 +70,10 @@ return require('packer').startup(function()
 		tag = 'nightly' -- optional, updated every week. (see issue #1193)
 	}
 	use { 'glepnir/dashboard-nvim' }
-	use {"folke/which-key.nvim"}
+	use { "folke/which-key.nvim" }
 	use {
-	  'nvim-lualine/lualine.nvim',
-	  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+		'nvim-lualine/lualine.nvim',
+		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 	}
 
 	-- colorschemes
@@ -75,5 +82,7 @@ return require('packer').startup(function()
 	use 'shaunsingh/nord.nvim'
 	use 'lunarvim/darkplus.nvim'
 	use 'LunarVim/onedarker.nvim'
+	use { 'dracula/dracula-theme', rtp = 'vim' }
+	use { 'sainnhe/edge', rtp = 'vim' }
 
 end)
