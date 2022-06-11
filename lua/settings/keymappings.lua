@@ -2,26 +2,21 @@ local opts = { noremap = true, silent = true }
 
 local term_opts = { silent = true }
 
-<<<<<<< HEAD
 local map = vim.api.nvim_set_keymap
 
 vim.opt.timeoutlen = 10000
-=======
-vim.opt.timeoutlen = 10000 
->>>>>>> b899631c993d07715eb45919fbac51b304f22f41
+vim.opt.timeoutlen = 10000
 vim.api.nvim_set_keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-<<<<<<< HEAD
 map('n', '<C-F>', ':%s/', opts)
 
 map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
-=======
+
 vim.keymap.set('n', '<C-F>', ':%s/', opts)
 
 vim.keymap.set('n', '<C-BS>', '<C-w>', opts)
->>>>>>> b899631c993d07715eb45919fbac51b304f22f41
 
 vim.keymap.set('n', '<leader>e', ":NvimTreeToggle<CR>", opts)
 
