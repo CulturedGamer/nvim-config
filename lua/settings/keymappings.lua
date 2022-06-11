@@ -7,7 +7,9 @@ vim.api.nvim_set_keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-vim.keymap.set('n', '<C-F>', ':%s/',opts)
+vim.keymap.set('n', '<C-F>', ':%s/', opts)
+
+vim.keymap.set('n', '<C-BS>', '<C-w>', opts)
 
 vim.keymap.set('n', '<leader>e', ":NvimTreeToggle<CR>", opts)
 
