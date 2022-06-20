@@ -2,9 +2,17 @@
 
 ## Installation
 
-clone this repository into .config or appdata/local:
+### Windows
+clone this repository into c:\user\appdata\local:
 
     git clone https://github.com/CulturedGamer/nvim-config.git
+    
+### Linux 
+clone this repository into .config:
+
+    git clone https://github.com/CulturedGamer/nvim-config.git
+    
+In lua/dashboard.lua on line 19 change path to ~/.config/nvim/init.lua
 
 ## Plugins
 
