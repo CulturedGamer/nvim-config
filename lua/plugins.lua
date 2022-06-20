@@ -23,6 +23,9 @@ return require('packer').startup(function()
 	}
 	use 'p00f/clangd_extensions.nvim'
 
+	-- toggleterm
+	use { "akinsho/toggleterm.nvim", tag = 'v1.*' }
+
 	-- pencil
 	use { 'preservim/vim-pencil', rtp = 'vim' }
 
