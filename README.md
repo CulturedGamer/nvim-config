@@ -37,6 +37,7 @@ In lua/dashboard.lua on line 19 change path to ~/.config/nvim/init.lua
 - dashboard
 - lualine
 - whichkey
+# Colorschemes
 - tokyonight
 - onedark
 - nord
