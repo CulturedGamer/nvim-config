@@ -85,7 +85,6 @@ return require('packer').startup(function()
 	use 'shaunsingh/nord.nvim'
 	use 'lunarvim/darkplus.nvim'
 	use 'LunarVim/onedarker.nvim'
-	use { 'dracula/dracula-theme', rtp = 'vim' }
 	use { 'sainnhe/edge', rtp = 'vim' }
 
 end)
