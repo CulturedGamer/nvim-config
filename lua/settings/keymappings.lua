@@ -42,3 +42,5 @@ vim.keymap.set("n", "<leader>dg", ":Telescope live_grep<CR>", opts)
 vim.keymap.set("n", "<leader>dh", ":Telescope help_tags<CR>", opts)
 vim.keymap.set("n", "<leader>db", ":Telescope buffers<CR>", opts)
 vim.keymap.set("n", "<leader>do", ":Telescope oldfiles<CR>", opts)
+
+vim.keymap.set("n", "<leader>cp", ":ToggleTerm", opts)
