@@ -2,10 +2,17 @@ local opts = { noremap = true, silent = true }
 
 local term_opts = { silent = true }
 
-vim.opt.timeoutlen = 10000 
+local map = vim.api.nvim_set_keymap
+
+vim.opt.timeoutlen = 10000
+vim.opt.timeoutlen = 10000
 vim.api.nvim_set_keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+
+map('n', '<C-F>', ':%s/', opts)
+
+map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
 
 vim.keymap.set('n', '<C-F>', ':%s/', opts)
 
@@ -36,4 +43,4 @@ vim.keymap.set("n", "<leader>dh", ":Telescope help_tags<CR>", opts)
 vim.keymap.set("n", "<leader>db", ":Telescope buffers<CR>", opts)
 vim.keymap.set("n", "<leader>do", ":Telescope oldfiles<CR>", opts)
 
-vim.keymap.set("n", "<leader>cp", ":ToggleTerm", opts)
+vim.keymap.set("n", "<leader>cp", ":ToggleTerm<CR>", opts)
