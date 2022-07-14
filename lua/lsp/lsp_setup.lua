@@ -3,7 +3,7 @@ require('nvim-lsp-setup').setup({
 		-- clangd = require('nvim-lsp-setup.clangd_extensions').setup({}),
 		jdtls = {},
 		kotlin_language_server = {},
-		sumneko_lua = {},
+		-- sumneko_lua = {},
 		-- pyright = {},
 		-- rust_analyzer = {}
 	}
