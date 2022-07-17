@@ -24,8 +24,8 @@ options = {
  sections = {
    lualine_a = {'mode'},
    lualine_b = {'branch', 'diff', 'diagnostics'},
-   lualine_c = {'filetype'},
-   lualine_x = {},
+   lualine_c = {},
+   lualine_x = {'filetype'},
    lualine_y = {'encoding'},
    lualine_z = {'filename'}
  },
