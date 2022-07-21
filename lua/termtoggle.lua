@@ -1,5 +1,5 @@
 require("toggleterm").setup {
-	direction = 'float',
+	direction = 'horizontal',
 	border = 'curved',
 	-- shell = ~/scoop/apps/git/current/bin/
 }
